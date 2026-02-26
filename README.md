@@ -4,6 +4,16 @@ This repository is an early source code archive of [TaylorBot](https://taylorbot
 
 The code is poorly written and it quickly became clear that it was **not realistically maintainable**. In September 2017, I started completely rewriting it with much better coding practices. Components and commands were progressively migrated to the rewritten version, during which both versions existed simultaneously. On January 21, 2019, all features had been migrated and this legacy version was **no longer in use**.
 
+## Extras
+
+In addition to the main bot source code, this repository includes extra scripts that were created alongside TaylorBot during the classic era. These were mostly one-off tools written to solve specific operational problems. See the [extras](src/extras/) directory.
+
+- **[minutes-retrieve](src/extras/minutes-retrieve/)**: Scripts used in December 2016 to recalculate and correct inflated minute counts caused by a bug.
+
+## Docs
+
+- **[Release Notes](docs/release-notes.md)**: Notes posted to the community for versions 0.1 through 0.10 (December 2015 – September 2016).
+
 ## Can I run this code?
 
 The project has many **obsolete dependencies** and uses **deprecated APIs**. The purpose of this repository is to provide a **historical archive** of the code for curious readers. It may be possible to run it by removing many features and making major changes, but I will not put time towards this goal.
