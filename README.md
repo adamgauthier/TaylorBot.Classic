@@ -9,6 +9,7 @@ The code is poorly written and it quickly became clear that it was **not realist
 In addition to the main bot source code, this repository includes extra scripts that were created alongside TaylorBot during the classic era. These were mostly one-off tools written to solve specific operational problems. See the [extras](src/extras/) directory.
 
 - **[minutes-retrieve](src/extras/minutes-retrieve/)**: Scripts used in December 2016 to recalculate and correct inflated minute counts caused by a bug.
+- **[message-count-yearbook](src/extras/message-count-yearbook/)**: Scripts used in ~November 2017 to find the most active new members for the server's 2nd anniversary yearbook.
 
 ## Docs
 

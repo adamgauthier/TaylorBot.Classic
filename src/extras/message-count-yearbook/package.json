@@ -1,0 +1,9 @@
+{
+  "name": "message-count-yearbook",
+  "version": "1.0.0",
+  "dependencies": {
+    "csv": "^2.0.0",
+    "moment": "^2.19.0",
+    "sqlite3": "^3.1.0"
+  }
+}
